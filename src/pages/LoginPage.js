@@ -1,9 +1,9 @@
 import LoginForm from "../components/LoginForm";
+import SignupForm from "../components/SignupForm";
 
 function LoginPage() {
   return(
-    <div>
-      <h1 className="text-6xl">Look into the mirror</h1>
+    <div className="flex items-center justify-center bg-sky-200 p-4 rounded-2xl">
       <LoginForm />
     </div>
   )

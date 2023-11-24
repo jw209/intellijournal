@@ -1,20 +1,10 @@
 export default function LoginForm () {
   return (
-    <form>
-      <br />
-      <label htmlFor="email">Email:</label>
-      <br />
-      <input type="email" id="email" name="email" required className="p-2 border-2 border-black rounded" />
-      <br />
-      <br />
-      <label htmlFor="password">Password:</label>
-      <br />
-      <input type="password" id="password" name="password" required className="p-2 border-2 border-black rounded" />
-      <br />
-      <br />
+    <form className="space-x-12">
+      <input id="email" name="email" placeholder="email" required className="p-4 rounded-2xl" />
+      <input id="password" name="password" placeholder="password" required className="p-4 rounded-2xl" />
       <button type="submit">Submit</button>
     </form>
   )
-  
 }
 
